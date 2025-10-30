@@ -1,0 +1,247 @@
+.screen {
+  position: relative;
+  width: 414px;
+  height: 1100px;
+  overflow: hidden;
+  background: var(--style-0-background);
+  font-family: var(--typo-13-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Coordinate helper (from Figma root at 1602, -823):
+   left = x - 1602
+   top  = y - (-823) = y + 823
+*/
+
+/* Hero Text "Notes": x:1626 y:-776 w:115 h:59 => left:24 top:47 */
+.text-125-186 {
+  position: absolute;
+  left: 24px;
+  top: 47px;
+  width: 115px;
+  height: 59px;
+  margin: 0;
+  font-family: var(--typo-14-family);
+  font-size: var(--typo-14-size);
+  font-weight: var(--typo-14-weight);
+  line-height: var(--typo-14-line-height);
+  color: var(--color-ffffff);
+}
+
+/* Button 4 rectangle (Search): x:1870 y:-772 w:50 h:50 => left:268 top:51 */
+.btn-125-189 {
+  position: absolute;
+  left: 268px;
+  top: 51px;
+  width: 50px;
+  height: 50px;
+  background: var(--style-6-background);
+  border-radius: var(--style-6-radius);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* search icon: x:1883 y:-759 w:24 h:24 => left:281 top:64 */
+.icon-125-190 {
+  position: absolute;
+  left: 281px;
+  top: 64px;
+  width: 24px;
+  height: 24px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Button 1 rectangle (Info): x:1941 y:-772 w:50 h:50 => left:339 top:51 */
+.btn-125-187 {
+  position: absolute;
+  left: 339px;
+  top: 51px;
+  width: 50px;
+  height: 50px;
+  background: var(--style-6-background);
+  border-radius: var(--style-6-radius);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* info icon: x:1954 y:-759 w:24 h:24 => left:352 top:64 */
+.icon-125-188 {
+  position: absolute;
+  left: 352px;
+  top: 64px;
+  width: 24px;
+  height: 24px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Rectangle 8 (card): x:1626 y:-680 w:365 h:157 => left:24 top:143 */
+.rect-125-175 {
+  position: absolute;
+  left: 24px;
+  top: 143px;
+  width: 365px;
+  height: 157px;
+  background: var(--style-1-background);
+  border-radius: var(--style-1-radius);
+}
+
+/* Book Review text: x:1671 y:-655 w:270 h:103 => left:69 top:168 */
+.text-125-176 {
+  position: absolute;
+  left: 69px;
+  top: 168px;
+  width: 270px;
+  height: 103px;
+  margin: 0;
+  font-family: var(--typo-13-family);
+  font-size: var(--typo-13-size);
+  font-weight: var(--typo-13-weight);
+  line-height: var(--typo-13-line-height);
+  color: var(--color-000000);
+}
+
+/* Text 125:177 empty spacer: x:1671 y:-633 h:32 => left:69 top:190 */
+.text-125-177 {
+  position: absolute;
+  left: 69px;
+  top: 190px;
+  width: 0px;
+  height: 32px;
+  margin: 0;
+  font-family: var(--typo-13-family);
+  font-size: var(--typo-13-size);
+  line-height: var(--typo-13-line-height);
+  color: var(--color-000000);
+}
+
+/* Rectangle 11: x:1626 y:-500 w:365 h:123 => left:24 top:323 */
+.rect-125-178 {
+  position: absolute;
+  left: 24px;
+  top: 323px;
+  width: 365px;
+  height: 123px;
+  background: var(--style-3-background);
+  border-radius: var(--style-3-radius);
+}
+
+/* Animes text: x:1671 y:-471 w:254 h:64 => left:69 top:352 */
+.text-125-179 {
+  position: absolute;
+  left: 69px;
+  top: 352px;
+  width: 254px;
+  height: 64px;
+  margin: 0;
+  font-family: var(--typo-13-family);
+  font-size: var(--typo-13-size);
+  line-height: var(--typo-13-line-height);
+  color: var(--color-000000);
+}
+
+/* Rectangle 10: x:1626 y:-352 w:365 h:110 => left:24 top:471 */
+.rect-125-180 {
+  position: absolute;
+  left: 24px;
+  top: 471px;
+  width: 365px;
+  height: 110px;
+  background: var(--style-4-background);
+  border-radius: var(--style-4-radius);
+}
+
+/* Mangas text: x:1671 y:-329 w:259 h:67 => left:69 top:494 */
+.text-125-181 {
+  position: absolute;
+  left: 69px;
+  top: 494px;
+  width: 259px;
+  height: 67px;
+  margin: 0;
+  font-family: var(--typo-13-family);
+  font-size: var(--typo-13-size);
+  line-height: var(--typo-13-line-height);
+  color: var(--color-000000);
+}
+
+/* Rectangle 13: x:1626 y:-217 w:365 h:120 => left:24 top:606 */
+.rect-136-37 {
+  position: absolute;
+  left: 24px;
+  top: 606px;
+  width: 365px;
+  height: 120px;
+  background: var(--style-7-background);
+  border-radius: var(--style-7-radius);
+}
+
+/* Rectangle 9: x:1626 y:-72 w:365 h:100 => left:24 top:751 */
+.rect-136-38 {
+  position: absolute;
+  left: 24px;
+  top: 751px;
+  width: 365px;
+  height: 100px;
+  background: var(--style-8-background);
+  border-radius: var(--style-8-radius);
+}
+
+/* Awesome tweets collection: x:1671 y:-191 w:287 h:68 => left:69 top:632 */
+.text-136-39 {
+  position: absolute;
+  left: 69px;
+  top: 632px;
+  width: 287px;
+  height: 68px;
+  margin: 0;
+  font-family: var(--typo-13-family);
+  font-size: var(--typo-13-size);
+  line-height: var(--typo-13-line-height);
+  color: var(--color-000000);
+}
+
+/* List of free & open source apps: x:1671 y:-55 w:297 h:66 => left:69 top:768 */
+.text-136-40 {
+  position: absolute;
+  left: 69px;
+  top: 768px;
+  width: 297px;
+  height: 66px;
+  margin: 0;
+  font-family: var(--typo-13-family);
+  font-size: var(--typo-13-size);
+  line-height: var(--typo-13-line-height);
+  color: var(--color-000000);
+}
+
+/* Ellipse 1 (FAB background): x:1911 y:-46 w:70 h:70 => left:309 top:777 */
+.ellipse-125-191 {
+  position: absolute;
+  left: 309px;
+  top: 777px;
+  width: 70px;
+  height: 70px;
+  background: var(--style-39-background);
+  border-radius: 50%;
+  box-shadow: var(--shadow-0), var(--shadow-1);
+}
+
+/* add icon: x:1922 y:-35 w:48 h:48 => left:320 top:788 */
+.icon-125-192 {
+  position: absolute;
+  left: 320px;
+  top: 788px;
+  width: 48px;
+  height: 48px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Utility */
+.card { outline: none; }
+button:focus-visible, .ellipse-125-191:focus-visible {
+  outline: 2px solid rgba(255,255,255,0.6);
+  outline-offset: 2px;
+}
